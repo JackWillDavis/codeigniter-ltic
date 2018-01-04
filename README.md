@@ -49,7 +49,7 @@ See  [here](https://www.imsglobal.org/specs/ltiv1p0/implementation-guide) for th
 Instruct the LTIC library to create the OAuth request and receive the signature, or `false` if data hasn't been set correctly.
 
 ```
-$signature = $this->ltic->createRequest();
+$signature = $this->ltic->createSignature();
 ```
 
 #### Step 4: Build the form to POST the user
@@ -57,7 +57,7 @@ $signature = $this->ltic->createRequest();
 The LTI specifications require the data to be POSTed to the Provider system. See below for an example:
 
 ```
-$signature = $this->ltic->createRequest();
+$signature = $this->ltic->createSignature();
 
 if($signature)
 {
@@ -94,7 +94,7 @@ $params = array(
 $this->ltic->setLaunchData($params);
 
 //Create the OAuth Signature
-$signature = $this->ltic->createRequest();
+$signature = $this->ltic->createSignature();
 
 //If you have received an signature, collect data
 if($signature)

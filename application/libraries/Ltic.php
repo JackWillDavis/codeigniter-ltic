@@ -90,7 +90,8 @@ class Ltic {
     $launch_data_keys = array_keys($this->launch_data);
     sort($launch_data_keys);
     $launch_params = array();
-    foreach ($launch_data_keys as $key) {
+    foreach ($launch_data_keys as $key)
+    {
       array_push($launch_params, $key . "=" . rawurlencode($this->launch_data[$key]));
     }
 

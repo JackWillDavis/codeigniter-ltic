@@ -2,7 +2,7 @@
 
 This library can be used to create LTI Consumer connections from a Master platform built with CodeIgniter. Users will log into your website and this library can then automatically log the user into third party platforms by authenticating via OAuth.
 
-Currently this is used for SSO integrations only but more features can be added on request. Send a request through the [Issue Tracker](https://bitbucket.org/JackWillDavis/codeigniter-ltic/issues) if you want anything adding.
+Currently this is used for SSO integrations only but more features can be added on request. Send a request through the [Issue Tracker](https://github.com/JackWillDavis/codeigniter-ltic/issues) if you want anything adding.
 
 Full guidelines for the Learning Tools Interoperability standards can be found [here](https://www.imsglobal.org/activity/learning-tools-interoperability).
 
